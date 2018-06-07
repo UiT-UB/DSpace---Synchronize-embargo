@@ -1,7 +1,7 @@
 # DSpace-Synchronize-embargo
 Synchronize file embargo and metadata embargo values in DSpace
 
-This script reads file/bitstream embargo values from items in DSpace and sets a metadata field to the same value. This might be useful when you are already using the file embargo feature, but also have implemented the requirements for compliance with the OpenAIRE guidelines. 
+This script reads file/bitstream embargo values from items in DSpace and sets a metadata field to the same value. This might be useful when you are already using the file embargo feature, but also have implemented the requirements for compliance with the OpenAIRE guidelines (https://guidelines.openaire.eu/en/latest/literature/index.html). 
 
 These guidelines require certain metadata fields for items under embargo: A dc:rights field which indicates access level, and, if the access level is set to embargoed access, a dc:date field indicating the embargo end date.
 
